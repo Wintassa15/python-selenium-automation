@@ -5,7 +5,6 @@ Feature:  Test Scenario for items in cart
   Scenario: Verify number of items in cart
     Given open amazon website
     When input teddy bear into search field
-    And click on search icon
-    Then select an item
-    And add to cart
-    And verify number of items
+    And click on the product
+    And click on add to cart
+    Then verify number of items
